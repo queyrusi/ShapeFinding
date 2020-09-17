@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-class Ellipse:
+class EllipseEstimator:
     """
     """
 
@@ -18,8 +18,10 @@ class Ellipse:
 
         return
 
-    def plot_ellipse(self,semimaj=1,semimin=1,phi=0,x_cent=0,y_cent=0,theta_num=1e3,ax=None,plot_kwargs=None,\
-                        fill=False,fill_kwargs=None,data_out=False,cov=None,mass_level=0.68, plot=False):
+    def plot_ellipse(self,semimaj=1,semimin=1,phi=0,x_cent=0,y_cent=0
+        ,theta_num=1e3,ax=None,plot_kwargs=None,\
+                        fill=False,fill_kwargs=None,
+                        data_out=False,cov=None,mass_level=0.68, plot=False):
 
         # Get Ellipse Properties from cov matrix
         if cov is not None:
