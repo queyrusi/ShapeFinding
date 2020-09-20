@@ -13,9 +13,12 @@ class Ellipse:
         self.data = None
         return
 
-    def generate_observation(self, length, density):
+    def generate_observation(self, length, density, section=True):
         # ellipse_param = np.array([x, y, h, k, b, a])
 
+        # Simple tuning of theta_num
+        if not section:
+            pass
         return
 
     def plot_ellipse(self,semimaj=1,semimin=1,phi=0,x_cent=0,y_cent=0,theta_num=1e3,ax=None,plot_kwargs=None,\
