@@ -12,4 +12,7 @@ if __name__ == 'main':
      theta_num=50, x_cent=3, y_cent=-2)
     print("Data ellipse ", ellipse_gen.data)
     # Execute success
+
+    # Must include unit-test
+    # Ellipse should be produced by n_points (density), arc, etc.
     
