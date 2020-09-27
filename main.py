@@ -15,4 +15,4 @@ if __name__ == 'main':
 
     # Must include unit-test
     # Ellipse should be produced by n_points (density), arc, etc.
-    # Safe to add several methods
+ 
