@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 class Ellipse:
-    """
+    """This class defines the Ellipse class giving all variations of shapes for parametric curve
     """
 
     def __init__(self):
